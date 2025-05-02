@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin panel</title>
+    <link rel="stylesheet" href="./css/Tickets.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-brand">
+        <img src="./images/nav-logo.svg" alt="" />
+        <span>Dashboard</span>
+      </div>
+      <div class="nav-items">
+        <ul class="nav-links">
+          <li class="li_padding">
+            <a href="../Admin-Panel/overview.html">
+              <img src="./images/overview.logo.svg" alt="" />
+              <span class="link-name">Overview</span>
+            </a>
+          </li>
+          <li class="li_padding">
+            <a href="./index.html">
+              <img src="./images/2. tickets.svg" alt="" />
+              <span class="link-name">Content</span>
+            </a>
+          </li>
+          <li class="li_padding">
+            <a href="#">
+              <img src="images/3. ideas.svg" alt="" />
+              <span class="link-name">ideas</span>
+            </a>
+          </li>
+          <li class="li_padding">
+            <a href="#">
+              <img src="./images/4. contacts.svg" alt="" />
+              <span class="link-name">Contacts</span>
+            </a>
+          </li>
+          <li class="li_padding">
+            <a href="#">
+              <img src="./images/5. agents.svg" alt="" />
+              <span class="link-name">Comment</span>
+            </a>
+          </li>
+          <li class="li_padding">
+            <a href="#">
+              <img src="./images/6. articles.svg" alt="" />
+              <span class="link-name">Share</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="logout-mode">
+          <li class="li_padding">
+            <a href="#">
+              <i class="uil uil-signout"></i>
+              <span class="link-name">Logout</span>
+            </a>
+          </li>
+          <li class="mode">
+            <a href="#">
+              <i class="uil uil-moon"></i>
+              <span class="link-name">Dark Mode</span>
+            </a>
+            <span class="switch"></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="dashboard">
+      <div class="top">
+        <i class="uil uil-bars sidebar-toggle hamburger"></i>
+        <i class="i">
+          Jones Ferdinant
+          <img src="images/section/people-img.svg" alt="" />
+        </i>
+      </div>
+      <div class="dash-content">
+        <div class="dashboard-head">
+          <div class="ticket">
+            <h1>Tickets</h1>
+          </div>
+
+          <div class="buttons">
+            <button class="btn-1">. . .</button>
+            <button class="btn-2">Add</button>
+          </div>
+        </div>
+
+        <!-- <div class="dashboard-body">
+      <div class="h2"><h2>All tickets</h2></div>
+      <div class="means">
+        <h5 class="one">Ticket details</h5>
+        <h5 class="two">Customer name</h5>
+        <h5 class="two">Date</h5>
+        <h5 class="two">Priority</h5>
+      </div>
+      <div class="dashboard-lines">
+        <div class="user one">
+          <div class="user-img"><img src="./images/table/ticket/avatar/man/3.svg" alt=""></div>
+          <div class="user-work">
+            <h4>Contact Email not Linked</h4>
+            <p>Updated 1 day ago</p>
+          </div>
+        </div>
+        <div class="user-name two">
+          <h4>Tom Cruise</h4>
+          <p>on 24.05.2019</p>
+        </div>
+        <div class="user-date two">
+            <h4>Tom Cruise</h4>
+            <p>on 24.05.2019</p>
+        </div>
+        <div class="user-level two">
+          HIGH
+        </div>
+        <div class="dots"><img src="./images/dots.svg" alt=""></div>
+      </div>
+     </div> -->
+
+        <div class="container">
+          <h2>All tickets</h2>
+
+          <div class="table-header">
+            <span>Ticket details</span>
+            <span>Customer name</span>
+            <span>Date</span>
+            <span>Priority</span>
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/m 5.svg" alt="User" />
+              <div>
+                <p class="ticket-title">Contact Email not Linked</p>
+                <p class="ticket-updated">Updated 1 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Tom Cruise</p>
+              <p class="ticket-updated">on 24.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 26, 2019</p>
+              <p class="ticket-updated">6:30 PM</p>
+            </div>
+            <span class="priority high">HIGH</span>
+
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img
+                src="./images/table/ticket/avatar/man/girl-2.svg"
+                alt="User"
+              />
+              <div>
+                <p class="ticket-title">Adding Images to Featured Posts</p>
+                <p class="ticket-updated">Updated 1 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Matt Damon</p>
+              <p class="ticket-updated">on 24.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 26, 2019</p>
+              <p class="ticket-updated">8:00 AM</p>
+            </div>
+            <span class="priority orange">LOW</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/3.svg" alt="User" />
+              <div>
+                <p class="ticket-title">When will I be charged this month?</p>
+                <p class="ticket-updated">Updated 1 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Robert Downey</p>
+              <p class="ticket-updated">on 24.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 26, 2019</p>
+              <p class="ticket-updated">7:30 PM</p>
+            </div>
+            <span class="priority high">HIGH</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/8.svg" alt="User" />
+              <div>
+                <p class="ticket-title">Payment not going through</p>
+                <p class="ticket-updated">Updated 2 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Christian Bale</p>
+              <p class="ticket-updated">on 24.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 25, 2019</p>
+              <p class="ticket-updated">5:00 PM</p>
+            </div>
+            <span class="priority normal">NORMAL</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/9.svg" alt="User" />
+              <div>
+                <p class="ticket-title">Unable to add replies</p>
+                <p class="ticket-updated">Updated 2 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Henry Cavil</p>
+              <p class="ticket-updated">on 24.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 25, 2019</p>
+              <p class="ticket-updated">4:00 PM</p>
+            </div>
+            <span class="priority high">HIGH</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/4.svg" alt="User" />
+              <div>
+                <p class="ticket-title">Downtime since last week</p>
+                <p class="ticket-updated">Updated 3 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Chris Evans</p>
+              <p class="ticket-updated">on 23.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 25, 2019</p>
+              <p class="ticket-updated">2:00 PM</p>
+            </div>
+            <span class="priority normal">NORMAL</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/6.svg" alt="User" />
+              <div>
+                <p class="ticket-title">Referral Bonus</p>
+                <p class="ticket-updated">Updated 4 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Sam Smith</p>
+              <p class="ticket-updated">on 22.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 25, 2019</p>
+              <p class="ticket-updated">2:00 PM</p>
+            </div>
+            <span class="priority orange">LOW</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-info">
+              <img src="./images/table/ticket/avatar/man/7.svg" alt="User" />
+              <div>
+                <p class="ticket-title">How do I change my password?</p>
+                <p class="ticket-updated">Updated 6 day ago</p>
+              </div>
+            </div>
+            <div class="ticket-customer">
+              <p class="ticket-customer">Steve Rogers</p>
+              <p class="ticket-updated">on 21.05.2019</p>
+            </div>
+            <div class="ticket-date">
+              <p class="ticket-date">May 24, 2019</p>
+              <p class="ticket-updated">1:00 PM</p>
+            </div>
+            <span class="priority normal">NORMAL</span>
+            <img class="dots" src="./images/dots.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../Admin-Panel/js/main.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
